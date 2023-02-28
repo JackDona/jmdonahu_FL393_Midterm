@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "FL393_Midterm",
+    "slug": "FL393_Midterm",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
