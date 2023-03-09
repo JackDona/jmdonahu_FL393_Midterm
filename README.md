@@ -2,6 +2,9 @@
 Author: Jack Donahue
 Project: FL393 Midterm
 
+
+
+
 **Sources:**
 
 Images created with the help of https://openart.ai/discoveryand https://www4.lunapic.com/editor/
@@ -15,7 +18,25 @@ Chauhan, Rani of Jhansi
 Varma, Rani Lakshmibai
 Gupta, The Slaying of Jayadrath
 
-**Instructions to run**
+
+
+
+**Instructions to Download**
+
+1. Go to https://github.com/JackDona/jmdonahu_FL393_Midterm
+2. Click the green button that says "Code," then "Download Zip"
+3. Unpack the zip and put it on your computer under the directory "C:Users/[your name]"
+4. Go back to https://github.com/JackDona/jmdonahu_FL393_Midterm
+5. Click "main", which is opposite from the green code button
+6. Under where it says "branches" go to "master"
+7. Click the green button that says "Code," then "Download Zip"
+8. Unpack the zip and put it on your computer under the directory "C:Users/[your name]/jmdonahu_FL393_Midterm"
+9. Rename the folder to "FL393_Midterm," replacing the empty one that is there already
+
+
+
+
+**Instructions to Run**
 
 *Requirements:*
 
