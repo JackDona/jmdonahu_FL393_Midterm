@@ -1,6 +1,6 @@
 
-Author: Jack Donahue
-Project: FL393 Midterm
+**Author: Jack Donahue**
+**Project: FL393 Midterm**
 
 
 
@@ -10,13 +10,13 @@ Project: FL393 Midterm
 Images created with the help of https://openart.ai/discoveryand https://www4.lunapic.com/editor/
 
 *Poems:*
-Ghalib, [162, 1 & 2]
-Ghalib, Yah na thī hamārī kismat
-Faiz, Verses
-Faiz, Do Not Ask, My Love, for the Love We Had Before
-Chauhan, Rani of Jhansi
-Varma, Rani Lakshmibai
-Gupta, The Slaying of Jayadrath
+* Ghalib, [162, 1 & 2]
+* Ghalib, Yah na thī hamārī kismat
+* Faiz, Verses
+* Faiz, Do Not Ask, My Love, for the Love We Had Before
+* Chauhan, Rani of Jhansi
+* Varma, Rani Lakshmibai
+* Gupta, The Slaying of Jayadrath
 
 
 
