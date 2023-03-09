@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-swipe-cards-deck/SwipeCards.js b/node_modules/react-native-swipe-cards-deck/SwipeCards.js
+index 45ce746..323b3f2 100644
+--- a/node_modules/react-native-swipe-cards-deck/SwipeCards.js
++++ b/node_modules/react-native-swipe-cards-deck/SwipeCards.js
+@@ -337,8 +337,8 @@ export default class SwipeCards extends Component {
+         this.props.stackOffsetY * cards.length - i * this.props.stackOffsetY;
+       let lastOffsetY = offsetY + this.props.stackOffsetY;
+ 
+-      let opacity = 0.25 + (0.75 / cards.length) * (i + 1);
+-      let lastOpacity = 0.25 + (0.75 / cards.length) * i;
++      let opacity = 1 + 0.25 + (0.75 / cards.length) * (i + 1);
++      let lastOpacity = 1 + 0.25 + (0.75 / cards.length) * i;
+ 
+       let scale = 0.85 + (0.15 / cards.length) * (i + 1);
+       let lastScale = 0.85 + (0.15 / cards.length) * i;

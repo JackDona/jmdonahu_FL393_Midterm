@@ -1,21 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import StackNavigator from "./src/navigation/StackNavigator";
+import { NavigationContainer } from "@react-navigation/native";
+import { useEffect } from "react";
+import { useFonts } from 'expo-font';
+import { LogBox } from "react-native";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+  /* Delegates control to the app navigator, this file must be present for the app to function */
+  const App = () => {
+    LogBox.ignoreLogs(['Failed %s type: %s%s, prop, Invalid prop']);
+    const[loaded] = useFonts({
+        Ubuntu_400Regular: require('./assets/Ubuntu-Regular.ttf'),
+        Ubuntu_700Bold: require('./assets/Ubuntu-Bold.ttf'),
+        Ubuntu_300Light: require('./assets/Ubuntu-Light.ttf'),
+    })
+    if (!loaded) {
+      return null;
+    }
+
+    return (
+      <NavigationContainer>
+        <StackNavigator />
+      </NavigationContainer>
+      );
+  };
+export default App;
