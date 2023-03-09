@@ -1,7 +1,7 @@
 
-**Author: Jack Donahue**
+**Author:** Jack Donahue
 
-**Project: FL393 Midterm**
+**Project:** FL393 Midterm
 
 
 
